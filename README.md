@@ -52,7 +52,7 @@ https://wayscript.com/home
 You can get your user agent like so:
 ![enter image description here](https://i.imgur.com/Jy07NPf.png)
 <br>**How to get DISCORD_WEBHOOK ? (OPTIONAL)**<br>
-Goto [](#discord-webhook-configuration)(Discord Webhook Configuration) If you want to setup discord webhook.
+Goto [Discord Webhook Configuration](#discord-webhook-configuration)If you want to setup discord webhook.
 1. Run the script <br>
 ![](https://i.imgur.com/MvFMagm.png)
 ![](https://i.imgur.com/YqqP1Wc.png)
