@@ -20,7 +20,10 @@ else:
     logging.info("Variable 'COOKIE' found, verifiying cookie ...")
 
 header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47',
+    'User-Agent': os.environ.get(
+        'USER_AGENT', 
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47'
+    ),
     'Referer': 'https://act.hoyolab.com',
     'Accept-Encoding': 'gzip, deflate, br',
     'Cookie': cookie
