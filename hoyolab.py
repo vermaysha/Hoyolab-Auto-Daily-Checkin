@@ -199,4 +199,4 @@ for no in range(len(cookies)):
 if fail > 0:
     logging.error(f'{fail} invalid account detected')
 logging.info('Script Ended')
-exit(1)
+exit(0)
